@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <referenceContainer name="content">
-        <block class="Simitraining\Test1\Block\Index" 
+        <block class="\Magento\Framework\View\Element\Template" 
         	name="trainingxxx_index_index" 
         	template="Simitraining_Test1::index.phtml" />
     </referenceContainer>

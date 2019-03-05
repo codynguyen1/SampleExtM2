@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+		 <add id="Simitraining_Test1::helloworld" title="Hello World" module="Simitraining_Test1" sortOrder="51" resource="Simitraining_Test1::helloworld"/>
+		 <add id="Simitraining_Test1::post" title="Child" module="Simitraining_Test1" sortOrder="10" action="trainingxxx/banner/index" resource="Simitraining_Test1::post" parent="Simi_Simiconnector::payment"/>
+    </menu>
+</config>
